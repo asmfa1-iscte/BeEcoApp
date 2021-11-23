@@ -8,7 +8,8 @@
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.example.beecoapp.ui.home.HomeFragment"
-        android:label="@string/title_home"
+        android:label="Home"
+        android:icon="@drawable/logo_vertical"
         tools:layout="@layout/fragment_home" />
 
     <fragment
@@ -22,4 +23,35 @@
         android:name="com.example.beecoapp.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.beecoapp.ui.home.ProfileFragment"
+        android:icon="@drawable/logo_vertical"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_vouchers"
+        android:name="com.example.beecoapp.ui.home.VouchersFragment"
+        android:icon="@drawable/logo_vertical"
+        tools:layout="@layout/fragment_vouchers" />
+
+    <fragment
+        android:id="@+id/navigation_qrcode"
+        android:name="com.example.beecoapp.ui.home.QRCodeFragment"
+        android:icon="@drawable/logo_vertical"
+        tools:layout="@layout/fragment_qrcode" />
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.example.beecoapp.ui.home.MapFragment"
+        android:icon="@drawable/logo_vertical"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/navigation_loja"
+        android:name="com.example.beecoapp.ui.home.LojaFragment"
+        android:icon="@drawable/logo_vertical"
+        tools:layout="@layout/fragment_loja" />
+
 </navigation>

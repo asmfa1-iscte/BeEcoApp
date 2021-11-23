@@ -8,4 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="BeEcoGreen1">#72BC5C</color>
+    <color name="BeEcoGreen2">#2C902E</color>
+    <color name="BeEcoBlue1">#44B7A9</color>
+    <color name="BeEcoBlueGreen1">#30D47A</color>
 </resources>
